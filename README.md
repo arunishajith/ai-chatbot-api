@@ -21,3 +21,19 @@ This project is a backend API built using FastAPI that integrates with a Large L
 ```bash
 pip install fastapi uvicorn groq python-dotenv
 uvicorn main:app --reload
+
+
+📌 API Endpoint
+
+POST /chat
+
+{
+  "query": "What is AI?"
+}
+📷 Demo
+
+Open: http://127.0.0.1:8000/docs
+
+👨‍💻 Author
+
+Aruni Shajith
